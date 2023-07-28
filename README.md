@@ -23,7 +23,7 @@ Logo Após crie uma div com os atributos, <br><hr>
 <body>
     <div class="theme" id="toggleThemeButton"></div>
 </body>
-<script src="https://github.com/luriquePro/apiDarkTheme/blob/main/js/darkModeScript.js"></script>
+<script src="./js/darkModeScript.js"></script>
 </html>
 
 ~~~  
@@ -48,7 +48,7 @@ então após chamar o script da API, chame a função __loadTheme__ passando com
 <body>
     <div class="theme" id="toggleThemeButton2"></div>
 </body>
-<script src="https://github.com/luriquePro/apiDarkTheme/blob/main/js/darkModeScript.js"></script>
+<script src="./js/darkModeScript.js"></script>
 <script>
   loadTheme('toggleThemeButton2')
 </script>
@@ -73,7 +73,7 @@ O segundo será o target da nova div, e o terceiro o tipo (class || id)
     <div class="theme" id="toggleThemeButton2"></div>
     <div class="contant"></div>
 </body>
-<script src="https://github.com/luriquePro/apiDarkTheme/blob/main/js/darkModeScript.js"></script>
+<script src="./js/darkModeScript.js"></script>
 <script>
   loadTheme('toggleThemeButton2', 'contant', 'class')
 
@@ -95,7 +95,7 @@ OU
     <div class="theme" id="toggleThemeButton2"></div>
     <div id="contant"></div>
 </body>
-<script src="https://github.com/luriquePro/apiDarkTheme/blob/main/js/darkModeScript.js"></script>
+<script src="./js/darkModeScript.js"></script>
 <script>
   loadTheme('toggleThemeButton2', 'contant', 'id')
 
